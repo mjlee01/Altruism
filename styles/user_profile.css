@@ -1,0 +1,84 @@
+.altruism-points, .donation-history, .event-history{
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.altruism-points {
+  border-top: 1px dashed grey;
+}
+
+.altruism-points h2,
+.event-history h2,
+.donation-history h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: #000;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.altruism-points p {
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  background-color: rgb(0, 0, 0);
+  padding: 20px 70px 20px 70px;
+  border-radius: 50px;
+}
+
+.user-records {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 10px;
+  border-top: 1px dashed grey;
+  border-bottom: 1px dashed grey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.donation-history {
+  flex: 2;
+  border-right: 1px dashed grey;
+  padding-bottom: 50px;
+}
+
+.event-history {
+  flex: 2;
+  padding-bottom: 50px;
+}
+
+.user-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  padding-right: 30px;
+}
+
+.user-button button {
+  font-family: Poppins;
+  border-radius: 20px;
+  background: white;
+  width: 120px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border: 3px solid black;
+}

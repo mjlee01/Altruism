@@ -1,0 +1,136 @@
+body, html {
+    /* height: 100%; */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: url(../Images/sign-in.jpg) no-repeat center center fixed;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.wrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    max-width: 500px;
+    height: 800px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.signup-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-title-container img{
+    max-width: 300px;
+}
+
+.signup-title-container h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.signup-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username-input-box,
+.age-input-box,
+.gender-input-box,
+.email-input-box,
+.password-input-box,
+.confirm-password-input-box,
+.contact-input-box {
+    margin-bottom: 20px;
+}
+
+.gender-input-box{
+    display: flex;
+    width: 400px;
+    padding-left: 12px;
+}
+
+.username-input,
+.age-input,
+.email-input,
+.password-input,
+.contact-input{
+    display: flex;
+    border: 1px solid lightgray;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.username-input input,
+.age-input input,
+.email-input input,
+.password-input input,
+.contact-input input{
+    border: none;
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    padding-left: 12px;
+    font-size: 16px;
+}
+
+.male-gender-box,
+.female-gender-box{
+    display: flex;
+    margin-left: 12px;
+    flex: 1;
+}
+
+.signup-button-container{
+    display: flex;
+    width: 400px;
+    margin-bottom: 25px;
+}
+
+.signup-button-container input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #DFBB69;
+    font-weight: 700;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    color: white;
+}
+
+.signup-button-container input:hover{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #dfc790;
+    cursor: pointer;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+}

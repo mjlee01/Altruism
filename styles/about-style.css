@@ -1,0 +1,205 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins;
+    /* background-color: lightblue; */
+}
+
+.about-photo {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.about-photo img {
+    width: 100%;
+    height: auto;
+    transform: translate(0, -330px);
+    opacity: 90%;
+}
+
+.about-introduction{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px 50px 30px;
+    gap: 50px;
+    /* background-color: lightpink; */
+}
+
+.intro-description{
+    flex: 7;
+    padding-top: 50px;
+    margin-left: 50px;
+    /* background-color: lightcoral; */
+}
+
+.intro-photo {
+    flex: 5;
+    /* background-color: lightblue; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.intro-photo img{
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    margin-top: 60px;
+    min-width: 260px;
+}
+
+.intro-description h1,
+.intro-description h2,
+.intro-description p{
+    margin: 0;
+}
+
+.intro-description h1{
+    font-size: 14px;
+    font-weight: 400;
+}
+.intro-description h2{
+    font-size: 48px;
+}
+
+.intro-description p{
+    font-size: 24px;
+}
+
+
+.mission-stats{
+    background-color: #f3f5fa;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.slogan-mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 80px;
+    padding: 80px 80px 0 80px;
+}
+
+.slogan{
+    flex: 1;
+    font-size: 3rem;
+    line-height: 4.4rem;
+    font-weight: 500;
+    text-align: end;
+    color: #232938;
+    min-width: 355px;
+}
+
+.mission {
+    flex: 3;
+    width: 40%;
+    margin-top: 18px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.stats-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.solid{
+    color:#DDE1F0;
+}
+
+
+.member-container,
+.user-container{
+    margin-right: 46px;
+}
+
+.member-container,
+.user-container,
+.expert-container{
+    width: 350px;
+    padding: 0 11px;
+    transition: background-color 0.3s;
+}
+
+.member-container:hover,
+.user-container:hover,
+.expert-container:hover{
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.member-container h2,
+.user-container h2,
+.expert-container h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.member-container p,
+.user-container p,
+.expert-container p{
+    padding-bottom: 12px;
+}
+
+.bottom-page-signup{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 60px;
+}
+
+
+.join-us h2{
+    font-size: 48px;
+}
+
+.join-us p{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about-join-description {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.sign-up-button {
+    background-color: rgb(255, 217, 45);
+    
+}
+
+.sign-up-button {
+    border-radius: 20px;
+    background: #23A6F0;
+    width: 312px;
+    height: 70px;
+    border: none;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 29px;
+    cursor: pointer;
+  }
+  
+  .sign-up-button a {
+    text-decoration: none;
+    color: white;
+  }

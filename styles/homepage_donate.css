@@ -1,0 +1,79 @@
+.donate {
+  /* background-color: lightblue; */
+  background-color: white;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* margin-bottom: 30px; */
+  border: 2px dashed grey;
+  min-width: 850px;
+}
+
+.donate-left {
+  flex: 2;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.donate-left img{
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
+
+.donate-right {
+  flex: 3;
+  height: 100%;
+  min-width: 360px;
+  margin-bottom: 50px;
+}
+
+.donate-button {
+  border-radius: 20px;
+  background: #DFBB69;
+  width: 312px;
+  height: 70px;
+  border: none;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  margin-top: 50px;
+  margin-bottom: 29px;
+  cursor: pointer;
+}
+
+.donate-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.right-bottom-1 {
+  color: black;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.right-bottom-2 {
+  color: black;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: justify;
+}

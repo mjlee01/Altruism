@@ -1,0 +1,125 @@
+body, html {
+    /* height: 100%; */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: url(../Images/sign-in.jpg) no-repeat center center fixed;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.wrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.login-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-title-container img {
+    max-width: 300px;
+}
+
+.login-title-container h2 {
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username-input,
+.password-input {
+    display: flex;
+    border: 1px solid lightgray;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.username-input input,
+.password-input input {
+    border: none;
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    padding-left: 12px;
+    font-size: 16px;
+}
+
+.forgot-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 36px;
+}
+
+.forgot-container a:active{
+    color: blue;
+}
+
+.login-button-container {
+    display: flex;
+    max-width: 500px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.login-button-container input {
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #DFBB69;
+    font-weight: 700;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    color: white;
+}
+
+.login-button-container input:hover {
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #dfc790;
+    cursor: pointer;
+}
+
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+}

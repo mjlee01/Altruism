@@ -1,0 +1,239 @@
+#mainframe {
+    width: 98%;
+    height: 2000px;
+    margin-top: 1%;
+    padding-left: 1%;
+    text-align: center;
+}
+
+#search {
+    position: relative;
+    background-color: grey;
+    border-radius: 30px;
+    margin: auto;
+    width: 500px;
+    height: 50px;
+    line-height: 45px;
+    color: lightgray;
+    font-size: 35px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+}
+
+#searchbar {
+    position: absolute;
+    background-color: gray;
+    border: none;
+    margin: auto;
+    width: 350px;
+    height: 45px;
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    font-style: italic;
+    align-self: center;
+    font-family: "Inter", sans-serif;
+}
+
+::placeholder {
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+#searchicon {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+#filtericon {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+#event1 {
+    background-image: url(Images/dog.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-color: #5E5E5E;
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+#event2 {
+    background-image: url(Images/elder.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-color: #5E5E5E;
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+#event3 {
+    background-image: url(Images/garbage\ event.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-color: #5E5E5E;
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+#event4 {
+    background-image: url(Images/plant\ trees.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-color: #5E5E5E;
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+#event5 {
+    background-image: url(Images/homeless\ lunch.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-color: #5E5E5E;
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+#event6 {
+    background-image: url(Images/fund\ raising.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-color: #5E5E5E;
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.datebox {
+    position: relative;
+    background-color: #C0C0C0;
+    width: 60px;
+    height: 70px;
+    margin-top: 210px;
+    margin-left: 260px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+
+#date {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.description {
+    position: absolute;
+    background-color: #D9D9D9;
+    top: 98%;
+    width: 100%;
+    height: 200px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px;
+
+}
+
+.details {
+    position: absolute;
+    background-color: rgb(61, 234, 61);
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    margin: 80px 230px 250px;
+    box-shadow: 5px 3px 4px gray;
+    text-align: center;
+    line-height: 45px;
+}
+
+#header {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+}
+
+#mainframe a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+#mainframe h1 {
+    text-align: left;
+    margin: 10px 20px 15px;
+    font-family: "Inter", sans-serif;
+}
+
+#mainframe p {
+    color: #6a6666;
+    font-size: large;
+    text-align: left;
+    line-height: 1;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-family: "Inter", sans-serif;
+}
+
+#mainframe .clock {
+    height: 15px;
+}
+
+#mainframe .medal {
+    height: 20px;
+}
+
+#row1 {
+    position: relative;
+    width: 1150px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+#row2 {
+    position: relative;
+    width: 1150px;
+    height: 500px;
+    margin: auto;
+    align-items: center;
+}

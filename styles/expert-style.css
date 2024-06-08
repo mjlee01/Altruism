@@ -1,0 +1,128 @@
+.expert-page{
+    font-family: Poppins, Arial;
+    margin: 0;
+}
+
+.expert-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1150px;
+    margin: auto;
+}
+
+.page-title{
+    font-size: 32px;
+}
+
+.teacher-container,
+.psychotherapist-container,
+.charity-event-organiser-container,
+.medical-professional-container,
+.legal-advisor-container{
+    height: 576px;
+    display: flex;
+}
+
+.teacher-container,
+.psychotherapist-container,
+.charity-event-organiser-container,
+.medical-professional-container{
+    margin-bottom: 50px;
+}
+
+.legal-advisor-container{
+    margin-bottom: 24px;
+}
+
+.teacher-container img,
+.psychotherapist-container img,
+.charity-event-organiser-container img,
+.medical-professional-container img,
+.legal-advisor-container img{
+    height: 576px;
+    width: 576px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.teacher-container img,
+.charity-event-organiser-container img,
+.legal-advisor-container img{
+    margin-right: 12px;
+}
+
+.psychotherapist-container img,
+.medical-professional-container img{
+    margin-left: 12px;
+}
+
+.teacher-intro,
+.psychotherapist-intro,
+.charity-event-organiser-intro,
+.medical-professional-intro,
+.legal-advisor-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher-title, 
+.psychotherapist-title,
+.charity-event-organiser-title,
+.medical-professional-title,
+.legal-advisor-title{
+    display: flex;
+    font-size: 46px;
+    padding-bottom: 12px;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.teacher-desc,
+.psychotherapist-desc,
+.charity-event-organiser-desc,
+.medical-professional-desc,
+.legal-advisor-desc{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.expert-recruitment-container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #5398CA;
+}
+
+.recruitment-description h2{
+    font-size: 30px;
+}
+
+.recruitment-button input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #dfc790;
+    font-weight: 700;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    color: white;
+}
+
+.recruitment-button input:hover{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #dacdb0;
+    cursor: pointer;
+}

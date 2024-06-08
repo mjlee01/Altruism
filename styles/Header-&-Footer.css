@@ -1,0 +1,293 @@
+/* 這是header的navigation bar */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 56px;
+  background-color: white;
+  /* border-bottom: 2px solid rgb(77, 77, 77); */
+  /* background-image: linear-gradient(#6DA4AA, #F6D776); */
+  background-color:#647D87;
+  color: white;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+/* Header左邊 */
+.header .left-section {
+  width: 200px;
+  margin-left: 10px;
+  padding-top: 5px;
+  font-size: 40px;
+  text-shadow: 3px 3px 1px #354247;
+}
+
+.header .left-section a {
+  font: Poppins;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header中間 */
+.header .middle-section {
+  flex: 1;
+  max-width: 850px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: lightpink; */
+}
+
+.home-button,
+.news-room-button,
+.events-button,
+.donation-button,
+.experts-button,
+.daily-rewards-button{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  font-family: Poppins;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 
+  margin-right 0.3s, 
+  margin-bottom 0.3s, 
+  box-shadow 0.3s, 
+  background-color 0.3s, 
+  color 0.3s;
+}
+
+.home-button:hover,
+.news-room-button:hover,
+.events-button:hover,
+.donation-button:hover,
+.experts-button:hover,
+.daily-rewards-button:hover{
+  margin-right: 5px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 3px #354247;
+  background-color: #F6D776;
+  color:#354247;
+}
+
+.home-button{
+  font-size: 20px;
+}
+
+/* Header右邊 */
+.header .right-section {
+  width: 95px;
+  font-family: Poppins;
+  font-size: 20;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.right-section img{
+  height: 28px;
+}
+
+.right-section div {
+  margin-left: 8px;
+}
+
+
+
+
+
+/* 這裡是Footer */
+.footer {
+  background-color: #647D87;
+  height: 532px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  z-index: -5;
+}
+
+/* Footer左邊 */
+.footer .left-section {
+  width: 754px;
+  height: 532px;
+  padding-left: 44px;
+}
+
+/* Footer左上 */
+.footer .top-left-section {
+  height: 140px;
+  width: 619px;
+  margin-bottom: 35px;
+}
+
+.footer-logo {
+  font-size: 50px;
+  left: 100px;
+  padding-top: 30px;
+  width: 198px;
+  height: 56px;
+  margin-bottom: 10px;
+}
+
+.footer .footer-description{
+  font-family: Poppins;
+  font-size: 18px;
+  width: 619px;
+}
+
+/* Footer左下 */
+.footer .bottom-left-section {
+  /* background-color: lightcoral; */
+  width: 593px;
+  height: 335px;
+}
+
+.footer .bottom-left-section .contact-us {
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.footer .bottom-left-section .contact-us-description {
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: medium;
+  margin-bottom: 10px;
+}
+
+.footer .bottom-left-section .contact-us-description span{
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 1px;
+  margin-right: 3px;
+}
+
+.footer .bottom-left-section .contact-us-description span:hover {
+  text-decoration: underline;
+}
+
+.footer .bottom-left-section .feedback-form{
+  width: 517px;
+  height: 222px;
+}
+
+.footer .feedback-form .full-name,
+.footer .feedback-form .email-address{
+  width: 210px;
+  height: 30px;
+  font-family: Poppins;
+  font-size: 500;
+  background-color: #D9D9D9;
+  padding: 10px;
+  color: black;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+.footer .feedback-form .your-message{
+  width: 507px;
+  height: 50px;
+  font-family: Poppins;
+  font-size: 500;
+  background-color: #D9D9D9;
+  padding: 10px;
+  color: black;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+.submit-button {
+  width: 100px;
+  height: 40px;
+  /* background-color: #3C3C3C; */
+  
+  font-weight: 900;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+
+  border: none;
+  border-radius: 30px;
+
+  background-size: 200%;
+  background-image: linear-gradient(to left, #fda7df, #9980fa, #Fda7df);
+
+  transition: background-position 0.4s;
+}
+
+.submit-button:hover{
+  background-position: right;
+}
+
+
+/* Footer右邊 */
+.footer .right-section {
+  /* background-color: lightblue; */
+  width: 526px;
+  padding-top: 60px;
+}
+
+.footer .right-section .sitemap-title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.footer .right-section .sitemap-nav .btn{
+  cursor: pointer;
+  z-index: 1000;
+
+  width: 326px;
+  padding-bottom: 12px;
+  padding-left: 6px;
+  margin-top: 0;
+  margin-bottom: 12px;
+
+  background-color: transparent;
+  
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  text-align: left;
+  
+  border: none;
+  border-bottom: 1px solid white;
+
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.footer .right-section .sitemap-nav .btn{
+  color: white;
+}
+.footer .right-section .sitemap-nav .btn:hover{
+  color: #647D87;
+}
+.footer .right-section .sitemap-nav .btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #F6D776;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.footer .right-section .sitemap-nav .btn::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.footer .right-section .sitemap-nav .btn:hover::before{
+  height: 180%;
+}

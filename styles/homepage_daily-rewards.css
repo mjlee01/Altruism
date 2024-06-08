@@ -1,0 +1,71 @@
+.daily-rewards{
+  height: 213px;
+  background-color: #F6D776;
+  color: white;
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.daily-rewards-title {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 900;
+  text-shadow: 2.5px 2.5px #9980fa;
+  margin-bottom: 16px;
+}
+
+.daily-rewards-day {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Seven columns for seven days */
+  gap: 36px;
+  align-items: end;
+  justify-content: space-between;
+  width: 100%;
+  height: 131px;
+  /* background-color: aliceblue; */
+  /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.daily-rewards-day .day .btn{
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  border-radius: 0%;
+  /* border: 1px solid black; */
+  border: none;
+  background-color: #647D87;
+
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+
+.rewards-background .badge{
+  background-color: lightblue;
+  padding: 8px;
+  cursor: pointer !important;
+}
+
+.rewards-background .badge img {
+  height: 70px;
+}
+
+
+.rewards-background {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  background-color: lightpink;
+  height: 131px;
+  box-shadow: 5px 5px 2px 0.5px rgba(51, 51, 51, .5);
+  position: relative;
+}
+
+.rewards-background .day{
+  background-color: lightcoral;
+}

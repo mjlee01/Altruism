@@ -1,0 +1,76 @@
+.events {
+  /* border: 1px solid lightblue; */
+  padding: 30px 52px 30px 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 40px;
+  align-items: center;
+  height: 731px;
+  min-width: 850px;
+}
+
+.event-panel {
+  position: relative;
+  width: 30%;
+  height: 90%;
+  min-height: 50px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  min-width: 345px;
+}
+
+.event-panel-up {
+  flex: 3;
+  position: relative;
+}
+
+.event-panel img{
+  display: block;
+  height: 100%;
+  width: auto;
+  transform: translate(-15%, 0%);
+}
+
+.event-panel-down {
+  flex: 3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 20px 0px 20px 0px;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .7);
+  /* left: 0; */
+  
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: Poppins;
+}
+
+.volunteer-button {
+  border-radius: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  height: 45px;
+  max-width: 900px;
+  font-weight: 700;
+  font-family: Poppins;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #53CA62;
+}
+
+.volunteer-button a {
+  text-decoration: none;
+  color: inherit;
+}
